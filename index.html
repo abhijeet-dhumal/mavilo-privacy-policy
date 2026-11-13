@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for the Mavilo app.">
+  <title>Mavilo Privacy Policy</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #24302d; background: #f4f0e3; }
+    body { margin: 0; padding: 2.5rem 1rem; }
+    main { max-width: 48rem; margin: 0 auto; padding: 2rem clamp(1.25rem, 5vw, 3rem); background: #fffdf7; border: 1px solid #d8d0bb; border-radius: .75rem; }
+    h1, h2 { color: #183c35; line-height: 1.25; }
+    h1 { margin-top: 0; font-size: clamp(2rem, 6vw, 2.75rem); }
+    h2 { margin-top: 2rem; font-size: 1.25rem; }
+    p { line-height: 1.7; }
+    .meta { color: #56645e; }
+    footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #d8d0bb; color: #56645e; font-size: .875rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Mavilo Privacy Policy</h1>
+    <p class="meta"><strong>Effective date:</strong> November 13, 2026<br><strong>Operator:</strong> Abhijeet Dhumal</p>
+    <p>Mavilo is a local-first planner and training log. This policy describes the current app behavior. It must be kept consistent with each released app build and its included services.</p>
+
+    <h2>Information stored on your device</h2>
+    <p>Mavilo stores the profile name, optional gender preference, Areas, plans, tasks, schedule entries, routine progress, training sessions, custom exercises, preferences, and optional body measurements such as weight, height, and body circumferences. The gender preference only selects the illustrated characters shown in the app. The main app snapshot and assistant conversation are stored locally and are not encrypted at rest. The conversation is stored separately and is not included in backups. On Android, an optional image you select for the home-screen widget is copied into app storage and shown locally; it is not uploaded.</p>
+    <p>Mavilo has no account or Mavilo-operated cloud sync. Android cloud backup is disabled. Some device makers may still transfer app data directly between devices; Mavilo’s Android backup rules exclude saved app records and secure-store keys from those transfers. When you choose to use an assistant or speech provider, the information described below is sent to that provider. Android schedule reminders are opt-in local notifications delivered by the operating system. Native assistant API keys use secure device storage. In a web browser, a key uses origin-scoped browser storage, which is not encrypted and may be accessible to scripts running on that origin.</p>
+
+    <h2>Assistant and AI providers</h2>
+    <p>When you send a chat message, Mavilo sends the current conversation and the app details requested for that task to the model endpoint you configured. Those details can include Area, task, plan, schedule, routine, training, exercise, or voice information. Your API key is sent to the same endpoint for authentication. Custom endpoints must use HTTPS. The selected provider processes the request under its own terms, privacy policy, and retention practices. Requests may be processed outside your country depending on the provider and endpoint you choose. Mavilo does not receive these requests through a Mavilo-operated server.</p>
+
+    <h2>Voice input and read-aloud</h2>
+    <p>Device or browser speech recognition and read-aloud use the speech service available on that platform; its provider and network behavior depend on your device settings. If you choose cloud transcription, Mavilo sends the recording to the selected transcription provider. You can review and edit the transcript; it is sent to the chat model only after you press <strong>Send</strong>.</p>
+
+    <h2>Backups and sharing</h2>
+    <p>A full backup is a readable, unencrypted JSON file. It includes saved app records and progress, including profile and body measurement data, but excludes your assistant conversation, API key, and Android widget image. The optional Plans &amp; Structure export includes Area names, task and routine definitions, workouts, and recurring schedule rules; it excludes individual Today and Schedule entries, completion history, measurements, and profile details. You choose where exported files are saved or shared; Mavilo does not receive a copy. Protect exports and delete copies you no longer want.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Your app data remains on the device until you delete it in Settings. <strong>Delete All App Data</strong> clears the saved app snapshot, assistant conversation and settings, API key, speech voice preference, and selected Android widget image. This cannot delete files you exported or data already processed by an AI or speech provider. Use the provider’s controls for provider-side retention or deletion, and revoke an API key with that provider if needed.</p>
+
+    <h2>Contact and policy updates</h2>
+    <p>For privacy questions or requests, use the developer contact published with the Google Play listing. Review this policy against the released app, included SDKs, and Play Data safety answers whenever app behavior or services change.</p>
+    <footer>Mavilo is operated by Abhijeet Dhumal.</footer>
+  </main>
+</body>
+</html>
